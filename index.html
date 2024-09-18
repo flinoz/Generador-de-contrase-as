@@ -19,19 +19,18 @@
                     <h1>Generador<span class="container__texto-azul"> de Contraseñas</span></h1>
                     <div class="container__campo"> 
                         <label class="texto__parrafo">Cantidad
-                            <input class="container__input" type="number" id="cantidad" >
+                            <input class="container__input" type="number" id="cantidad" min="1" placeholder="Min. 1">
                         </label>
-                        <button class="boton" id="generar" >Generar</button>
+                        <button class="boton" id="generar">Generar</button>
                     </div> 
                     <div class="container__campo">
-                        <input class="container__contrasena" type="text" id="contrasena" placeholder="contraseña">
+                        <input class="container__contrasena" type="text" id="contrasena" placeholder="Contraseña generada" readonly>
                     </div>
                 </div> 
             </div>
         </div>
- 
     </main>
     
-    <script src="main.js"></script> 
+    <script src="./main.js"></script> 
 </body>
 </html>
